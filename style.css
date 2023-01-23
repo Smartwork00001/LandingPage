@@ -1,0 +1,162 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+button{
+    border-radius: 5px;
+}
+/*-----------------------start of placement css for placing divs in their place---------------------*/
+.all-contents, .main-contents{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-contents-section-1, .illustrations{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-image > img {
+    height:auto;
+    width: 300px;
+}
+
+.illustration > img{
+    height: 200px;
+    width: 200px;
+}
+/*-----------------------end of placement css for placing divs in their place---------------------*/
+
+/*---------------start of text and background color styling--------------------------------*/
+.logo{
+    font-size: 24px;
+}
+
+.header, .main-contents-section-1, .footer{
+    background-color: #1f2937;
+}
+
+a, .signup-text-top > .middle-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.signup-text-top > .top-text, .footer , .logo{
+    color: #f9faf8;
+}
+
+.signup-text-top > .top-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.main-contents-section-3{
+    background-color: #e5e7eb;
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style:italic;
+}
+
+.quote-author{
+    font-weight: bolder;
+}
+
+.signup-text-bottom, .signup-text-bottom > button, .signup-text-top > button{
+    background-color:#3882f6;
+}
+
+/*---------------end of text and background color styling--------------------------------*/
+
+/*---------------start of specifically header styling--------------------------------*/
+
+.header-links > ul{
+    display: flex;
+    gap:8px;
+}
+
+/*---------------end of specifically header styling--------------------------------*/
+
+/*---------------start of specifically main-contents-section-1 styling--------------------------------*/
+.main-contents-section-1{
+    gap:8px;
+    padding:16px;
+}
+
+/*---------------end of specifically main-contents-section-1 styling--------------------------------*/
+/*---------------start of specifically main-contents-section-2 styling--------------------------------*/
+.main-contents-section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.main-contents-section-2 > .top-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:18px;
+}
+
+.illustrations{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+}
+
+.illustration > p{
+    text-align: center;
+}
+
+.illustration > img{
+    border-radius: 25px;
+}
+
+/*---------------end of specifically main-contents-section-2 styling--------------------------------*/
+
+/*---------------start of specifically main-contents-section-3 styling--------------------------------*/
+.quote {
+    text-align: center;
+}
+
+.quote-author {
+    text-align: right;
+}
+/*---------------end of specifically main-contents-section-3 styling--------------------------------*/
+
+/*---------------start of specifically main-contents-section-4 styling--------------------------------*/
+.signup-text-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+/*---------------end of specifically main-contents-section-4 styling--------------------------------*/
+
+/*---------------start of specifically footer styling--------------------------------*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+/*---------------end of specifically footer styling--------------------------------*/
